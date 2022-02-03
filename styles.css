@@ -7,7 +7,7 @@ li{
 }
 body {
     display: flex;
-    flex-direction: column ;
+    flex-direction: column;
     height: 100vh;
     margin: 0;
     overflow: hidden;
@@ -15,26 +15,27 @@ body {
   }
 .header{
     display: flex;
-    justify-content: center;   
+    justify-content: center;  
+    padding-top: 20px; 
 }
 .header text {
     font-size: 32px;
     color: rgb(94, 186, 248);
 }
 
-#Main_Menu{
+.main{
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 60px;
     margin-top: 50px;
 }
-#Main_Menu img{
+.main img{
     width: 200px;
     height: 150px;
 
 }
-#Main_Menu a{
+.main  a{
     text-align: center;
     margin-top: 15px;
     background-color: antiquewhite;
