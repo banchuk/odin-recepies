@@ -1,11 +1,42 @@
-h1{
-    text-align: center;
-    color: rgb(12, 12, 143);
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+li{
+    list-style: none;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+.header text {
+    font-size: 32px;
+    color: rgb(94, 186, 248);
 }
 #Main_Menu{
-    text-align: left;
-    font-size: 35px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: rgb(51, 51, 70);
-    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    margin-top: 50px;
+}
+#Main_Menu img{
+    width: 200px;
+
+}
+
+.one, .two, .three {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+
+}
+.one{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
 }
