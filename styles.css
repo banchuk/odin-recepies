@@ -5,15 +5,23 @@ a{
 li{
     list-style: none;
 }
+body {
+    display: flex;
+    flex-direction: column ;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    font-family: Roboto, sans-serif;
+  }
 .header{
     display: flex;
-    align-items: center;
     justify-content: center;   
 }
 .header text {
     font-size: 32px;
     color: rgb(94, 186, 248);
 }
+
 #Main_Menu{
     display: flex;
     align-items: center;
@@ -29,26 +37,23 @@ li{
 #Main_Menu a{
     text-align: center;
     margin-top: 15px;
+    background-color: antiquewhite;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 5px;
 }
-//*Main_Menu li{
-    width: 30px;
-    height: 20px;
-    color: rgb(17, 17, 17);
-    background-color: blanchedalmond;
-    border: none;
-}
-*//
+
 .one, .two, .three {
     display: flex;
-    justify-content: center;
     flex-direction: column;
-    justify-content: center;
-    align-content: center;
-
 }
-//*.one{
+.one{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-content: center;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
 }
